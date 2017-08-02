@@ -27,6 +27,10 @@ a {
 	flex-direction: column;
 }
 
+.find-me > a{
+	width: 2em;
+}
+
 .find-me:after{
 	content: "";
 	position: absolute;
@@ -45,13 +49,11 @@ a {
 	flex-direction: row;
 	justify-content:space-around;
 	align-items:flex-start;
-	padding-top: 1em;
-
+	padding-top: 2em;
 }
 
 .flex-wraper > header{
 	color: #fefefe;
-	align-self: flex-end;
 }
 
 
@@ -63,13 +65,20 @@ a {
 .flex-wraper > main > h2{
 	padding-bottom: 1em;
 	text-align: center;
+	font-size: 3em;
+}
+
+.flex-wraper > main h3 {
+	font-size: 2em;
 }
 
 .flex-wraper > main{
 	background-color: #fff1f1;
-	height: 80%;
+	width: 65vw;
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-top: 2em;
 	padding-bottom: 1em;
+	font-size: 1em;
 }
+
