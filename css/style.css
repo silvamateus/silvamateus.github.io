@@ -18,6 +18,7 @@
 a {
 	color: #fefefe;
 	text-decoration: none;
+	padding-bottom: 1em;
 }
 
 .find-me{
@@ -41,7 +42,7 @@ a {
 	padding-left: 174px;
 	padding-bottom: 163px;
 	padding-right: 100px;
-	margin-left: 3em;
+	margin-left: 6em;
 }
 
 .flex-wraper{
@@ -50,18 +51,19 @@ a {
 	justify-content:space-around;
 	align-items:flex-start;
 	padding-top: 2em;
-	font-size: 1.1em;
+	font-size: 1.19em;
+	font-family: 'Oswald', sans-serif;
+	color:rgb(77.3%, 76.4%, 93.3%);
 }
-
-.flex-wraper > header{
-	color: #fefefe;
-}
-
 
 .flex-wraper > header > h1{
 	color: #C4BBF0;
 	padding-top: 2em;
 	padding-bottom: 1em;
+}
+
+.flex-wraper > header > p:nth-child(even){
+	color: #001061;
 }
 .flex-wraper > main > h2{
 	padding-bottom: 1em;
@@ -71,25 +73,32 @@ a {
 }
 
 .flex-wraper > main > ul > li  {
-	
-	color: #927FBF;
+	color: #000FD9;	
 }
 
 .flex-wraper > main > ul > li > h3 {
 	font-size: 2em;
+	color: #927FBF;
+}
+.flex-wraper > main > ul > li > ul {
+	padding-top: 0.5em;
 }
 
 .flex-wraper > main > ul > li > ul > li {
-	color: black;
+	color: #363B4E;
 	padding-top: 0.5em;
 }
 
 .flex-wraper > main{
-	background-color: #fff1f1;
-	width: 65vw;
+	background-color: rgba(100%, 94.5%, 94.5%, 0.85);
+	width: 50vw;
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-top: 2em;
 	padding-bottom: 1em;
 }
 
+
+.-title {
+    font-family: 'Droid Serif', serif;
+}
