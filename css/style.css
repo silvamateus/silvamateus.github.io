@@ -1,18 +1,7 @@
+/*semantic tags tweaks*/
+
 *{
 	box-sizing: border-box;	
-}
-
-.personal-image{
-	width: auto;
-	height: auto;
-	max-width: 350px;
-	max-height: 250px;
-	border: 4px solid #363B4E;
-	border-radius: 100%;
-}
-
-.monoliptic-bg{
-	background:#4F3B78;
 }
 
 a {
@@ -21,29 +10,8 @@ a {
 	padding-top: 0.5em;
 }
 
-.find-me{
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
-	flex-direction: column;
-}
 
-.find-me > a{
-	width: 2em;
-}
-
-.find-me:after{
-	content: "";
-	position: absolute;
-	background: url("https://avatars2.githubusercontent.com/u/13048705?v=4&u=c7cc4198f12aa0b5ddcf7b33547119c6d718d952&s=400") top center/100% no-repeat;
-	border: 4px solid #363B4E;
-	border-radius: 100%;
-	padding-top: 105px;
-	padding-left: 174px;
-	padding-bottom: 163px;
-	padding-right: 100px;
-	margin-left: 6em;
-}
+/*flex-wraper tweaks*/
 
 .flex-wraper{
 	display: flex;
@@ -97,6 +65,44 @@ a {
 	padding-top: 2em;
 	padding-bottom: 1em;
 }
+
+/*find-me tweaks*/
+.find-me{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: column;
+}
+
+.find-me > a{
+	width: 2em;
+}
+
+.find-me:after{
+	content: "";
+	position: absolute;
+	background: url("https://avatars2.githubusercontent.com/u/13048705?v=4&u=c7cc4198f12aa0b5ddcf7b33547119c6d718d952&s=400") top center/100% no-repeat;
+	border: 4px solid #363B4E;
+	border-radius: 100%;
+	padding-top: 105px;
+	padding-left: 174px;
+	padding-bottom: 163px;
+	padding-right: 100px;
+	margin-left: 6em;
+}
+
+
+/*General stuff*/
+
+.monoliptic-bg{
+	background:#4F3B78;
+}
+
+
+
+
+
+
 
 
 .-title {
