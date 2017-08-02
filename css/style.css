@@ -7,6 +7,63 @@
 	height: auto;
 	max-width: 350px;
 	max-height: 250px;
-	border: 4px solid #290326;
+	border: 4px solid rgb(38.6%, 17.8%, 30.8%);
 	border-radius: 100%;
+}
+
+.monoliptic-bg{
+	background: rgb(17.1%, 7.2%, 13.4%);
+}
+
+
+a {
+	color: #fefefe;
+	transform: all 0.4 ease-out;
+}
+
+.find-me{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: column;
+}
+
+.find-me:after{
+	content: "";
+	position: absolute;
+	background: url("https://avatars2.githubusercontent.com/u/13048705?v=4&u=c7cc4198f12aa0b5ddcf7b33547119c6d718d952&s=400") top center/100% no-repeat;
+	border: 4px solid rgb(38.6%, 17.8%, 30.8%);
+	border-radius: 100%;
+	padding-top: 115px;
+	padding-left: 174px;
+	padding-bottom: 163px;
+	padding-right: 100px;
+	margin-left: 3em;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 2em;
+	padding-top: 3em;
+	background-color: red;
+}
+
+.flex-wraper{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding-top: 6em;
+}
+
+.flex-wraper > header{
+	color: #fefefe;
+}
+.flex-wraper > header > h1{
+	color: blue;
+	padding-top: 3em;
+}
+
+.flex-wraper > main{
+	background-color: #fff1f1;
+	padding: 4em;
 }
