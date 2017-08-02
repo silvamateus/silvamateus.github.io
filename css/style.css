@@ -1,7 +1,5 @@
 *{
 	box-sizing: border-box;	
-	padding: 0;
-	margin: 0;
 }
 
 .personal-image{
@@ -47,12 +45,13 @@ a {
 	flex-direction: row;
 	justify-content:space-around;
 	align-items:flex-start;
-	padding-top: 3em;
+	padding-top: 1em;
 
 }
 
 .flex-wraper > header{
 	color: #fefefe;
+	align-self: flex-end;
 }
 
 
@@ -63,6 +62,7 @@ a {
 }
 .flex-wraper > main > h2{
 	padding-bottom: 1em;
+	text-align: center;
 }
 
 .flex-wraper > main{
@@ -71,16 +71,5 @@ a {
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-top: 2em;
-	padding-bottom: 1em;
-	border-bottom: 1em solid rgb(17.1%, 7.2%, 13.4%);
-}
-
-li ul li{
-	list-style: none;
-	padding-left: 1em;
-	padding-top: 1em;
-}
-
-li ul > li:last-child{
 	padding-bottom: 1em;
 }
