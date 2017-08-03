@@ -32,9 +32,9 @@ main > ul > li > ul > li {
 	margin: 0;
 }
 
-.background-default > header > p:nth-child(even){
+/*.background-default > header > p:nth-child(even){
 	color: #001061;
-}
+}*/
 
 .find-me{
 	display: flex;
@@ -51,7 +51,7 @@ main > ul > li > ul > li {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: stretch;
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 	padding-bottom: 1em;
 	background: #363B4E;
 	width: 100vw;
@@ -63,7 +63,7 @@ main > ul > li > ul > li {
 	color:#7566A9; 
 }
 
-.alchemic-flex > h1 , .alchemic-flex > p:nth-child(odd){
+.alchemic-flex > h1 , .alchemic-flex > p{
 	color: #C4BBF0;
 }
 
@@ -78,8 +78,13 @@ main > ul > li > ul > li {
 }
 
 .title-font{
-	font-family: 'Droid Serif', serif;	
+    font-family: 'Roboto', sans-serif;	
 }
+
+.font-special{
+	font-family: 'Indie Flower', cursive;
+}
+
 
 
 
@@ -139,6 +144,10 @@ main > ul > li > ul > li {
 	.simple-flex > img {
 		margin-left: 0;
 	}
+
+	main > .font-special:nth-child(1){
+		font-size: 4em;
+	}
 }
 
 @media all and (min-width: 1080px){
@@ -147,14 +156,11 @@ main > ul > li > ul > li {
 		font-size: 1em;
 	}
 
-	header{
-		font-size:1.5em;
-	}
-
 
 	main > ul > li > h3 {
 		font-size: 2em;
 	}
+
 	main > ul > li > ul {
 		padding-top: 0.5em;
 	}
@@ -177,26 +183,31 @@ main > ul > li > ul > li {
 		width: 40%;
 		flex-grow: 1;
 		padding-right: 2em;
-		padding-left: 2em;;
+		padding-left: 2em;
+		padding-top: 2em;
 		background: rgba(21.2%, 23.1%, 30.6%, 0);
-
+		font-size: 2em;
 	}
 
 	.background-default > .alchemic-flex:nth-child(2){
-		width: 50%;
+		width: 100%;
 		flex-grow: 2;
 		padding-left: 2em;
 	}
 
 	.alchemic-flex > h2 {
 		padding-bottom: 1em;
-		padding-left: 3em;
-		font-size: 3em; 
+		padding-left: 3em; 
 	}
+
+	.alchemic-flex > h1 {
+		font-size: 1.8em; 
+	}
+
 
 	.alchemic-flex > p{
 		margin: 0;
-		padding-bottom: 1em;
+		padding-bottom: 0;
 	}
 
 	.title-font {
@@ -213,7 +224,7 @@ main > ul > li > ul > li {
 	border-radius: 100%;
 	height: auto;
 	width: auto;
-	max-width: 14em;
+	max-width: 10em;
 	max-height: 15em;
 	}
 
@@ -226,4 +237,7 @@ main > ul > li > ul > li {
 	.find-me > a {
 		font-size: 1.4em;
 	}
+
+	
+
 }
