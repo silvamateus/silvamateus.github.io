@@ -123,10 +123,7 @@ and (max-width: 844px) {
 @media all 
 and (max-width: 480px){
 	.flex-wraper{
-		font-size: 12px;
+		font-size: 22px;
 	}
 
-	.find-me:after{
-		z-index: -1;
-	}
 }
