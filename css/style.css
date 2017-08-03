@@ -8,6 +8,7 @@ a {
 	color: #fefefe;
 	text-decoration: none;
 	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 
@@ -98,13 +99,34 @@ a {
 	background:#4F3B78;
 }
 
-
-
-
-
-
-
-
 .-title {
     font-family: 'Droid Serif', serif;
+}
+
+
+
+/*Media-queries*/
+
+
+@media all 
+and (max-width: 844px) {
+	.flex-wraper{
+		flex-direction: column;
+	}
+
+	.flex-wraper > main {
+		width: 100%;
+	}
+  
+}
+
+@media all 
+and (max-width: 480px){
+	.flex-wraper{
+		font-size: 0.5em;
+	}
+
+	.find-me:after{
+		z-index: -1;
+	}
 }
