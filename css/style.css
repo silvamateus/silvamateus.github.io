@@ -14,10 +14,26 @@ ul > li > ul {
 	padding-bottom: 1em;
 }
 
+main > ul > li  {
+	color: #000FD9;	
+}
+
+main > ul > li > h3 {
+	color: #927FBF;
+}
+
+main > ul > li > ul > li {
+	color: #363B4E;
+}
+
+
 .background-default{
 	background:#4F3B78;
-	padding-left: 2em;
-	padding-right: 1em;
+	margin: 0;
+}
+
+.background-default > header > p:nth-child(even){
+	color: #001061;
 }
 
 .find-me{
@@ -37,10 +53,18 @@ ul > li > ul {
 	align-items: stretch;
 	font-family: 'Oswald', sans-serif;
 	padding-bottom: 1em;
+	background: #363B4E;
+	width: 100vw;
+	padding-left: 2em;
 }
 
 .alchemic-flex > h2 {
 	text-align: center;
+	color:#7566A9; 
+}
+
+.alchemic-flex > h1 , .alchemic-flex > p:nth-child(odd){
+	color: #C4BBF0;
 }
 
 .background-default > .alchemic-flex:nth-child(2){
@@ -49,18 +73,27 @@ ul > li > ul {
 	padding-right: 1em;
 }
 
-.alchemic-flex > img {
+.alchemic-flex > .simple-flex > img {
 	align-self: center;
 }
 
 .title-font{
-    font-family: 'Droid Serif', serif;	
+	font-family: 'Droid Serif', serif;	
 }
+
 
 
 @media all and (min-width: 480px){
 	.alchemic-flex{
 		align-items: center;
+	}
+
+	.simple-flex {
+		padding-left: 3em;
+	}
+
+	.simple-flex > img{
+		margin-left: 5em;
 	}
 }
 
@@ -94,11 +127,17 @@ ul > li > ul {
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-around;
+		padding-left: 1.5em;
+		padding-right: 1em;
 	}
 
 	header > div > img {
 		max-width: 10em;
 		max-height: 11em;
+	}
+
+	.simple-flex > img {
+		margin-left: 0;
 	}
 }
 
@@ -112,20 +151,15 @@ ul > li > ul {
 		font-size:1.5em;
 	}
 
-	main > ul > li  {
-	color: #000FD9;	
-	}
 
 	main > ul > li > h3 {
 		font-size: 2em;
-		color: #927FBF;
 	}
 	main > ul > li > ul {
 		padding-top: 0.5em;
 	}
 
 	main > ul > li > ul > li {
-		color: #363B4E;
 		padding-top: 0.5em;
 	}
 
@@ -142,6 +176,8 @@ ul > li > ul {
 		width: 40%;
 		flex-grow: 1;
 		padding-right: 2em;
+		background: rgba(21.2%, 23.1%, 30.6%, 0);
+
 	}
 
 	.background-default > .alchemic-flex:nth-child(2){
@@ -153,20 +189,18 @@ ul > li > ul {
 	.alchemic-flex > h2 {
 		padding-bottom: 1em;
 		padding-left: 3em;
-		font-size: 3em;
-		color:#7566A9; 
+		font-size: 3em; 
+	}
+
+	.alchemic-flex > p{
+		margin: 0;
+		padding-bottom: 1em;
 	}
 
 	.title-font {
 		font-size: 2em;
 	}
-	.alchemic-flex > h1 , .alchemic-flex > p:nth-child(odd){
-		color: #C4BBF0;
-	}
-
-	.background-default > header > p:nth-child(even){
-		color: #001061;
-	}
+	
 
 	header > div > img {
 	border: 4px solid #363B4E;
