@@ -139,9 +139,6 @@ and (max-width: 480px){
 		color: #fefefe;
 	}
 
-	.find-me{
-		flex-direction: row;
-	}
 	.find-me:after{
 		padding-top:0;
 		padding-left: 0;	
