@@ -125,5 +125,12 @@ and (max-width: 480px){
 	.flex-wraper{
 		font-size: 22px;
 	}
+	.flex-wraper > main {
+		width: 90vw;
+	}
+
+	.flex-wraper > main > ul > li > h3{
+		font-size: 30px;
+	}
 
 }
