@@ -128,10 +128,15 @@ and (max-width: 480px){
 	.flex-wraper > main {
 		width: 90vw;
 		height: 100%;
+		background-color: rgba(100%, 99%, 99%, 0);
 	}
 
 	.flex-wraper > main > ul > li > h3{
 		font-size: 30px;
+	}
+
+	.flex-wraper > main > ul > li > ul > li{
+		color: #fefefe;
 	}
 
 }
