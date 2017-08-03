@@ -168,6 +168,7 @@ main > ul > li > ul > li {
 		align-content: center;
 		align-items: center;
 		justify-content: center;
+		padding-left: 0;
 	}
 
 
@@ -176,6 +177,7 @@ main > ul > li > ul > li {
 		width: 40%;
 		flex-grow: 1;
 		padding-right: 2em;
+		padding-left: 2em;;
 		background: rgba(21.2%, 23.1%, 30.6%, 0);
 
 	}
@@ -200,6 +202,10 @@ main > ul > li > ul > li {
 	.title-font {
 		font-size: 2em;
 	}
+
+	.simple-flex{
+		padding-left: 0;
+	}
 	
 
 	header > div > img {
@@ -212,7 +218,8 @@ main > ul > li > ul > li {
 	}
 
 	.find-me{
-		padding-left: 2em;
+		padding-left: 0;
+		margin-left: 0;
 		padding-right: 1em;
 	}
 
