@@ -127,6 +127,7 @@ and (max-width: 480px){
 	}
 	.flex-wraper > main {
 		width: 90vw;
+		height: 100%;
 	}
 
 	.flex-wraper > main > ul > li > h3{
