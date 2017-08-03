@@ -142,10 +142,6 @@ and (max-width: 480px){
 	.find-me{
 		flex-direction: row;
 	}
-	.find-me  a{
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-	}
 	.find-me:after{
 		padding-top:0;
 		padding-left: 0;	
