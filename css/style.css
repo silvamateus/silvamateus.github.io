@@ -138,5 +138,12 @@ and (max-width: 480px){
 	.flex-wraper > main > ul > li > ul > li{
 		color: #fefefe;
 	}
+	.find-me:after{
+		padding-top: 49px;
+		padding-left: 70px;	
+		padding-bottom: 66px;
+		padding-right: 44px;
+		margin-left: 87px;
+	}
 
 }
