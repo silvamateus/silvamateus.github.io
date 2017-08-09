@@ -136,7 +136,7 @@ main > ul > li > ul > li {
 	}
 
 	.background-default > .alchemic-flex:nth-child(2){
-		flex-grow: 2;
+		flex-shrink: 2;
 	}
 
 	.simple-flex{
@@ -203,8 +203,7 @@ main > ul > li > ul > li {
 	}
 
 	.background-default > .alchemic-flex:nth-child(2){
-		width: 100%;
-		flex-grow: 2;
+		width: 60%;
 		padding-left: 2em;
 	}
 
