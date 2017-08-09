@@ -202,13 +202,13 @@ main > ul > li > ul > li {
 	}
 
 	.background-default > .alchemic-flex:nth-child(2){
-		width: 60%;
+		width: 42em;
 		padding-left: 2em;
 	}
 
 	.alchemic-flex > h2 {
 		padding-bottom: 1em;
-		padding-left: 3em; 
+		padding-left: 2em; 
 	}
 
 	.alchemic-flex > h1 {
