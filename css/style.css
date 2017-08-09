@@ -117,7 +117,8 @@ main > ul > li > ul > li {
 	}
 
 	.alchemic-flex > p{
-		height: 30vh;
+		height: 25vh;
+		line-height: 1em;
 	}
 
 	.find-me{
