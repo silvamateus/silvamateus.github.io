@@ -71,6 +71,10 @@ main > ul > li > ul > li {
 	font-size: 1.2em;
 }
 
+.alchemic-flex > p:nth-child(1) > span {
+	color: #9E00D9
+}
+
 .background-default > .alchemic-flex:nth-child(1){
 	background: #363B4E;
 }
