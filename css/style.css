@@ -14,12 +14,9 @@ ul > li > ul {
 	padding-bottom: 1em;
 }
 
-main > ul > li  {
-	color: #000FD9;	
-}
 
-main > ul > li > h3 {
-	color: #927FBF;
+main > ul > li {
+	color: #363B4E;
 }
 
 main > ul > li > ul > li {
@@ -28,7 +25,7 @@ main > ul > li > ul > li {
 
 
 .background-default{
-	background:#4F3B78;
+	background: #363B4E;
 	margin: 0;
 }
 
@@ -60,7 +57,7 @@ main > ul > li > ul > li {
 
 .alchemic-flex > h2 {
 	text-align: center;
-	color:#7566A9; 
+	color: #363B4E;
 }
 
 .alchemic-flex > h1 , .alchemic-flex > p{
@@ -71,13 +68,13 @@ main > ul > li > ul > li {
 	font-size: 1.2em;
 }
 
-.alchemic-flex > p:nth-child(1) > span {
-	color: #9E00D9
+header > p > span {
+	color: #FEFEFE;
 }
 
-.background-default > .alchemic-flex:nth-child(1){
+/*.background-default > .alchemic-flex:nth-child(1){
 	background: #363B4E;
-}
+}*/
 
 .background-default > .alchemic-flex:nth-child(2){
 	background-color: rgba(100%, 94.5%, 94.5%, 0.85);
