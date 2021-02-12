@@ -11,14 +11,19 @@
 }
 
 body {
-	background-color: var(--main-bg-color);
+	background-color: var(--secondary-bg-color);
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
 }
 header {
-	background-color: var(--secondary-bg-color);
 	text-align: center;
 	color: var(--main-text-color);
+	padding: 1rem;
+}
+header > h1 {
+	font-size: 25px;
 }
 nav a {
 	font-size: 20px;
@@ -29,17 +34,26 @@ footer {
 	padding: 2rem 1rem;
 	text-align: right;
 	color: var(--main-text-color);
+	position: absolute;
+	bottom: 0;
+	align-self: flex-end;
 }
 
 @media (min-width: 480px) {
 	header > h1 {
 		font-size: 30px;
-}
+	}
 }
 
 @media (min-width: 1024px) {
+	body {
+	align-items: center;
+	justify-content: center;
+	background-color: var(--main-bg-color);
+	}
 
 	header {
+		background-color: var(--secondary-bg-color);
 		border-radius: .5rem;
 		width: 40rem;
 		align-self: center;
