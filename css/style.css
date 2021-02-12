@@ -1,3 +1,9 @@
+:root {
+	--main-bg-color: #4C4C9D;
+	--secondary-bg-color: #712F79;
+	--terciary-bg-color: #976391;
+	--main-text-color: #fac5ad;
+}
 *,*::before,*::after{
 	box-sizing: border-box;
 	margin: 0;
@@ -5,11 +11,40 @@
 }
 
 body {
-	background-color: #4C4C9D;
+	background-color: var(--main-bg-color);
 	display: flex;
 	flex-direction: column;
 }
+header {
+	background-color: var(--secondary-bg-color);
+	text-align: center;
+	color: var(--main-text-color);
+}
+nav a {
+	font-size: 20px;
+	margin: 0 .5rem;
+	color: var(--main-text-color);
+}
+main {
+	padding-top: 1rem;
+}
+footer {
+	padding: 2rem 1rem;
+	text-align: right;
+	color: var(--main-text-color);
+}
 
+.card {
+	background-color: var(--secondary-bg-color);
+	color: var(--main-text-color);
+	padding: 2rem 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.card > ul li {
+	list-style-type: none;
+}
 header {
 	background-color: #712F79;
 	border-radius: .5rem;
