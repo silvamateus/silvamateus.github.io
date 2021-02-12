@@ -56,6 +56,9 @@ nav a:nth-child(5):hover {
 nav a:nth-child(6):hover {
 	color:#000;
 }
+nav a:nth-child(7):hover {
+	color:red;
+}
 
 main {
 	display: flex;
