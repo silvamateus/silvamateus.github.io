@@ -33,7 +33,6 @@ footer {
 	text-align: right;
 	color: var(--main-text-color);
 }
-
 .card {
 	background-color: var(--secondary-bg-color);
 	color: var(--main-text-color);
